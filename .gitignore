@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# Log files
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# Build output
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+.DS_Store
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# IDE or editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Operating system files
+Thumbs.db
+ehthumbs.db
+Icon?
