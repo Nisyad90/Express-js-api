@@ -22,3 +22,19 @@ This is an Express.js API for managing "MensRanking" entries. It supports creati
 
    ```bash
    git clone <repository-url>
+
+2. Navigate to the project directory:
+   cd mensranking-api
+   
+4. Install dependencies:
+   npm install
+
+5. Set up your environment variables. Create a .env file in the root directory:
+   PORT=3000
+   JWT_SECRET=your_jwt_secret
+   REFRESH_TOKEN_SECRET=your_refresh_token_secret
+   DB_URI=your_database_uri
+
+6. Start the server:
+   npm start
+ 
